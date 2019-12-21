@@ -1,7 +1,7 @@
 # OCP3-on-AWS-GovCloud
 Deploy Red Hat's OpenShift Container Platform 3 in AWS GovCloud
 
-*Status:*  Just started.  Don't expect anything cool yet.
+#Status:#  Just started.  Don't expect anything cool yet.
 
 ## Overview
 This Repo will chronical my experience with:
