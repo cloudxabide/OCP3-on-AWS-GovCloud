@@ -18,7 +18,7 @@ Side Note (which is hopefully limited in actual scope) I received the email that
 ### Updating your console URL
 Browse to the [GovCloud Console](https://console.amazonaws-us-gov.com/iam/home?region=us-gov-west-1#/home) and then the [IAM Dashboard](https://console.amazonaws-us-gov.com/iam/home?region=us-gov-west-1).  Under the header: Welcome to Identity and Access Management | IAM users sign-in link: located the link to "Customize" and enter whatever alias you like.  
 
-https://clouditoutload.signin.amazonaws-us-gov.com/console
+https://clouditoutloud.signin.amazonaws-us-gov.com/console
 
 
 ### Programmatic Access
