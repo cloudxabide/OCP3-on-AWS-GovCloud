@@ -4,7 +4,7 @@ Deploy Red Hat's OpenShift Container Platform 3 in AWS GovCloud
 Status:  Just started.  Don't expect anything cool yet.
 
 ## Overview
-This Repo will chronical my experience with:
+This Repo will chronical:
 * Onboarding - GovCloud (MFA, IAM user, Access Keys)
 * Research - OpenShift Container Platform 3 on AWS (which is a commerical/public cloud initiative)
 * Design and Architecture Overview
@@ -14,13 +14,14 @@ This Repo will chronical my experience with:
 * Teardown - decommision the solution (to save $$)
 
 ## Onboarding - Signup for GovCloud
-Contrary to popular belief you don't need to be a "Goverment" to get a GovCloud account.  There *are* some additional hoops you have to jump through, but the process is fairly easy and straight-forward.
+Contrary to popular belief, you do not need to be a "Goverment" to get a GovCloud account.  There *are* some additional hoops you have to jump through, but the process is fairly easy and straight-forward.
 
 [Sign Up for GovCloud](GovCloud-Signup.md)  
 WARNING:  AWS recommends, and I concur, that you setup a new AWS account dedicated to your GovCloud endevours.
 
 ## Research - OpenShift 3 on AWS
-[Red Hat OpenShift on AWS - QuickStart](https://aws.amazon.com/quickstart/architecture/openshift/)
+[Red Hat OpenShift on AWS - QuickStart](https://aws.amazon.com/quickstart/architecture/openshift/)  
+
 [Getting Started with AWS Credits](https://aws.amazon.com/quickstart/architecture/openshift/get-started/)
 
 ## Design and Architecture Overview
@@ -30,7 +31,7 @@ This implementation is architected to use a single account, single VPC and 2 x A
 ![OCP3 on GovCloud Storage](images/OCP3-on-GovCloud_-_2AZ_-_Storage.png)
 
 ## Deployment and Provisioning 
-We will use Terraform for this (initially). I would like to pursue a more cloud-neutral approach.
+Terraform will deploy the Infrastructre as Code (initially).  This will provide a more cloud-neutral approach.
 
 ## Account Limits 
 (Complete this later)
