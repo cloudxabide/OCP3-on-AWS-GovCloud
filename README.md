@@ -20,15 +20,20 @@ Contrary to popular belief you don't need to be a "Goverment" to get a GovCloud 
 WARNING:  AWS recommends, and I concur, that you setup a new AWS account dedicated to your GovCloud endevours.
 
 ## Research - OpenShift 3 on AWS
+[Red Hat OpenShift on AWS - QuickStart](https://aws.amazon.com/quickstart/architecture/openshift/)
+[Getting Started with AWS Credits](https://aws.amazon.com/quickstart/architecture/openshift/get-started/)
 
 ## Design and Architecture Overview
+This implementation is architected to use a single account, single VPC and 2 x AZs (based on external limitations/requirements).  While not ideal, I feel fairly confident that an entire AZ is not going to go down.
+
 ![OCP3 on GovCloud](images/OCP3-on-GovCloud_-_2AZ.png)
 ![OCP3 on GovCloud Storage](images/OCP3-on-GovCloud_-_2AZ_-_Storage.png)
 
 ## Deployment and Provisioning 
-I am going to use Terraform for this (initially). I would like to pursue a more cloud-neutral approach.
+We will use Terraform for this (initially). I would like to pursue a more cloud-neutral approach.
 
 ## Account Limits 
+(Complete this later)
 
 ## Unfold the sheet of paper
 
