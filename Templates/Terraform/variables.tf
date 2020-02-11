@@ -7,17 +7,17 @@ variable "vpc_cidr" {
 	default = "10.160.0.0/16"
 }
 
-variable "subnets_rublic_cidr" {
-	type = "list"
+variable "subnets_public_cidr" {
+	type = list
 	default = ["10.160.0.0/22", "10.160.4.0/22"]
 }
 
 variable "subnets_private_cidr" {
-	type = "list"
+	type = list
 	default = ["10.160.24.0/22", "10.160.28.0/22"]
 }
 
 variable "azs" {
-	type = "list"
+	type = list
 	default = ["us-gov-west-1a", "us-gov-west-1b"]
 }
