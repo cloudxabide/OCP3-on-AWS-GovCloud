@@ -22,7 +22,8 @@ WARNING:  AWS recommends, and I concur, that you setup a new AWS account dedicat
 ## Research - OpenShift 3 on AWS
 
 ## Design and Architecture Overview
-
+![OCP3 on GovCloud](images/OCP3-on-PublicCloud_-_2AZ.png)
+![OCP3 on GovCloud Storage](images/OCP3-on-PublicCloud_-_2AZ_-_Storage.png)
 
 ## Deployment and Provisioning 
 I am going to use Terraform for this (I think...)  I am not familiar and I need to shift my focus away from my AWS experience to a more cloud-neutral approach.
