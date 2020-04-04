@@ -17,7 +17,7 @@ This Repo will chronical:
 Contrary to popular belief, you do not need to be a "Goverment" to get a GovCloud account.  There *are* some additional hoops you have to jump through, but the process is fairly easy and straight-forward.
 
 [Sign Up for GovCloud](GovCloud-Signup.md)  
-WARNING:  AWS recommends, and I concur, that you setup a new AWS account dedicated to your GovCloud endevours.
+*WARNING:*  AWS recommends, and I concur, that you setup a new AWS account dedicated to your GovCloud endevours.
 
 ## Research - OpenShift 3 on AWS
 [Red Hat OpenShift on AWS - QuickStart](https://aws.amazon.com/quickstart/architecture/openshift/)  
