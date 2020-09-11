@@ -18,6 +18,7 @@ Contrary to popular belief, you do not need to be a "Goverment" to get a GovClou
 
 [Sign Up for GovCloud](GovCloud-Signup.md)  
 *WARNING:*  AWS recommends, and I concur, that you setup a new AWS account dedicated to your GovCloud endevours.
+*WARNING:*  again, in case that last statement was not clear, create a NEW commerical account (master/payer) and then associate your GovCloud account with that new account.  Do NOT use your commercial account you have been using for a while and probably have much going on with.
 
 ## Research - OpenShift 3 on AWS
 [Red Hat OpenShift on AWS - QuickStart](https://aws.amazon.com/quickstart/architecture/openshift/)  
